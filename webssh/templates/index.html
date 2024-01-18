@@ -43,31 +43,31 @@
       <form id="connect" action="" method="post" enctype="multipart/form-data"{% if debug %} novalidate{% end %}>
         <div class="row">
           <div class="col">
-            <label for="主机名">Hostname</label>
+            <label for="Hostname">IP</label>
             <input class="form-control" type="text" id="hostname" name="hostname" value="" required>
           </div>
           <div class="col">
-            <label for="端口">Port</label>
+            <label for="Port">端口</label>
             <input class="form-control" type="number" id="port" name="port" placeholder="22" value="" min=1 max=65535>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="用户名">Username</label>
+            <label for="Username">用户名</label>
             <input class="form-control" type="text" id="username" name="username" value="" required>
           </div>
           <div class="col">
-            <label for="密码">Password</label>
+            <label for="Password">密码</label>
             <input class="form-control" type="password" id="password" name="password" value="">
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="密钥">Private Key</label>
+            <label for="Username">证书</label>
             <input class="form-control" type="file" id="privatekey" name="privatekey" value="">
           </div>
           <div class="col">
-            <label for="证书密码">Passphrase</label>
+            <label for="Passphrase">证书密码</label>
             <input class="form-control" type="password" id="passphrase" name="passphrase" value="">
           </div>
         </div>
